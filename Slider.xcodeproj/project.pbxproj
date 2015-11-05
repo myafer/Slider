@@ -15,6 +15,9 @@
 		8F0257021B7CACCA00CC6343 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0257011B7CACCA00CC6343 /* Images.xcassets */; };
 		8F0257051B7CACCA00CC6343 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F0257031B7CACCA00CC6343 /* LaunchScreen.xib */; };
 		8F0257111B7CACCA00CC6343 /* SliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0257101B7CACCA00CC6343 /* SliderTests.m */; };
+		8F02571C1B7CACFD00CC6343 /* AferButtonSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F02571B1B7CACFD00CC6343 /* AferButtonSlider.m */; };
+		8F0A50101B862D9D001A8159 /* women2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F0A500F1B862D9D001A8159 /* women2.png */; };
+		8F8317661B7F9A2A0005CBB4 /* dddd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8317651B7F9A2A0005CBB4 /* dddd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,10 @@
 		8F02570A1B7CACCA00CC6343 /* SliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F02570F1B7CACCA00CC6343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F0257101B7CACCA00CC6343 /* SliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderTests.m; sourceTree = "<group>"; };
+		8F02571A1B7CACFD00CC6343 /* AferButtonSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AferButtonSlider.h; sourceTree = "<group>"; };
+		8F02571B1B7CACFD00CC6343 /* AferButtonSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AferButtonSlider.m; sourceTree = "<group>"; };
+		8F0A500F1B862D9D001A8159 /* women2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = women2.png; sourceTree = "<group>"; };
+		8F8317651B7F9A2A0005CBB4 /* dddd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dddd.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,8 @@
 		8F0256F01B7CACCA00CC6343 /* Slider */ = {
 			isa = PBXGroup;
 			children = (
+				8F0A500F1B862D9D001A8159 /* women2.png */,
+				8F8317651B7F9A2A0005CBB4 /* dddd.png */,
 				8F0256F51B7CACCA00CC6343 /* AppDelegate.h */,
 				8F0256F61B7CACCA00CC6343 /* AppDelegate.m */,
 				8F0256FB1B7CACCA00CC6343 /* ViewController.h */,
@@ -92,6 +101,8 @@
 				8F0257031B7CACCA00CC6343 /* LaunchScreen.xib */,
 				8F0256F81B7CACCA00CC6343 /* Slider.xcdatamodeld */,
 				8F0256F11B7CACCA00CC6343 /* Supporting Files */,
+				8F02571A1B7CACFD00CC6343 /* AferButtonSlider.h */,
+				8F02571B1B7CACFD00CC6343 /* AferButtonSlider.m */,
 			);
 			path = Slider;
 			sourceTree = "<group>";
@@ -205,6 +216,8 @@
 				8F0257001B7CACCA00CC6343 /* Main.storyboard in Resources */,
 				8F0257051B7CACCA00CC6343 /* LaunchScreen.xib in Resources */,
 				8F0257021B7CACCA00CC6343 /* Images.xcassets in Resources */,
+				8F8317661B7F9A2A0005CBB4 /* dddd.png in Resources */,
+				8F0A50101B862D9D001A8159 /* women2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F02571C1B7CACFD00CC6343 /* AferButtonSlider.m in Sources */,
 				8F0256F71B7CACCA00CC6343 /* AppDelegate.m in Sources */,
 				8F0256FA1B7CACCA00CC6343 /* Slider.xcdatamodeld in Sources */,
 				8F0256FD1B7CACCA00CC6343 /* ViewController.m in Sources */,
@@ -352,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Slider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Slider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,6 +436,7 @@
 				8F0257161B7CACCA00CC6343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F0257171B7CACCA00CC6343 /* Build configuration list for PBXNativeTarget "SliderTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +445,7 @@
 				8F0257191B7CACCA00CC6343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
