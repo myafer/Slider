@@ -36,7 +36,7 @@
         [bgView addSubview:coreView];
     }
     
-    AferButtonSlider *a = [[AferButtonSlider alloc] initWithFrame:CGRectMake(0, 80, 320, 100)];
+    AferButtonSlider *a = [[AferButtonSlider alloc] initWithFrame:CGRectMake(0, 80, 320, 50)];
     a.backgroundColor = [UIColor clearColor];
     [self.view addSubview:a];
     a.returnBlock = ^(NSInteger indexB){
