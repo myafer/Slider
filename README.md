@@ -4,4 +4,4 @@
  
 |ID|Framework|Images|
 |---|---|---|
-|1|[AFNetworking/AFNetworking](https://www.github.com/AFNetworking/AFNetworking)<br/><img src="http://download.easyicon.net/png/1169241/16/"/>21,493<br/>A delightful iOS and OS X networking framework|![](https://camo.githubusercontent.com/8899865b0bce40080ab90f15316efad88689d893/68747470733a2f2f7472617669732d63692e6f72672f41464e6574776f726b696e672f41464e6574776f726b696e672e737667)|
+|1|[myafer/ScrButton](https://github.com/myafer/ScrButton)<br/>视图滑动切换 |![](https://camo.githubusercontent.com/8899865b0bce40080ab90f15316efad88689d893/68747470733a2f2f7472617669732d63692e6f72672f41464e6574776f726b696e672f41464e6574776f726b696e672e737667)|
